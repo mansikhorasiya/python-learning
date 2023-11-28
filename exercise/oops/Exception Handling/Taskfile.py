@@ -1,6 +1,6 @@
 import re
 
-from networkx import selfloop_edges
+# from networkx import selfloop_edges
 class Signup():
     def __init__(self,fn,ln,un,pwd):
         self.fn = fn
