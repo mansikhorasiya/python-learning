@@ -1,0 +1,11 @@
+user will pass filename and file location as arguments
+
+user will input no of lines
+
+user will input data
+
+write data in file
+
+read data from file
+
+count lines,words,with space chars & without space chars

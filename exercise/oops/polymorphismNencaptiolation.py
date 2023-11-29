@@ -97,3 +97,70 @@ def main():
 
 if __name__ == "__main__":
     main()
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+# class MaxLimitExceededError(Exception):
+#     def __init__(self,message):
+#         super().__init__(message)
+#     pass
+# class MaxTransactionLimitExceededException(Exception):
+#     def __init__(self,message):
+#         super().__init__(message)
+
+# class Bank:
+#     def __init__(self,Max_transaction_limit,Max_amount_limit):
+#         self.Maxtransctionlimit = Max_transaction_limit
+#         self.Maxamountlimit = Max_amount_limit
+#         self.transctionamount = 0
+#     def withdrow(self,amount):
+
+#             if self.current_transactions >= self.max_transactions:
+#                 raise MaxLimitExceededError("Max transaction limit exceeded")
+
+#             if self.current_amount + amount > self.max_amount:
+#                 raise MaxLimitExceededError("Max amount limit exceeded")
+
+#             self.current_transactions += 1
+#             self.current_amount += amount
+# class HDFC(Bank):
+#     def __init__(self):
+#         super().__init__("HDFC Bank", max_transactions=3, max_amount=20000)
+
+# class AXIS(Bank):
+#     def __init__(self):
+#         super().__init__("AXIS Bank", max_transactions=5, max_amount=30000)
+
+# class ATM:
+#     @staticmethod
+#     def inputAmount():
+#         bank_choice = input("Choose a bank (HDFC/AXIS): ").upper()
+#         amount = int(input("Enter amount to withdraw: "))
+
+#         if bank_choice == "HDFC":
+#             bank = HDFC(Bank)
+#         elif bank_choice == "AXIS":
+#             bank = AXIS(Bank)
+#         else:
+#             print("Invalid bank choice")
+#             return
+
+    
+#         try:
+#             message = bank.withdraw(amount)
+#             print(message)
+#             print(f"Current transactions: {bank.current_transactions}/{bank.max_transactions}")
+#             print(f"Current amount: {bank.current_amount}/{bank.max_amount}")
+
+#         except MaxLimitExceededError as e:
+#             print(e)
+        
+#         finally:
+#             next_transaction = input("Do you want to perform another transaction? (yes/no): ").lower()
+#             if next_transaction == "yes":
+#                 ATM.inputAmount()
+#             else:
+#                 print("Terminating the process")
+
+# object_atm = ATM.inputAmount()
+ 
+    
+
