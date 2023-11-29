@@ -1,0 +1,26 @@
+user will pass filename and file location as arguments
+----------------------------------------
+user will input no of lines
+
+user will input data
+
+write data in demo.txt
+
+read data from demo.txt
+Hello C
+Hello C++
+Hello Java
+
+linewise reverse write in dummy.txt
+Hello Java
+Hello C++
+Hello C
+-----------------------------------------
+user will replace the word in dummy.txt
+
+	user will input word to replace->Hello
+
+	user will input word in replacement->Hi
+
+data should be replace in dummy.txt
+-----------------------------------------
