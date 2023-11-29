@@ -1,0 +1,40 @@
+user will input no students
+input
+
+write_data(n):
+
+    user will input rollno and name for n students
+        input
+
+    user will input marks of 3 subjects for n students
+        input
+
+    store rollno and name in studentInfo.txt file
+        1-A
+        2-B
+        3-C
+
+    store rollno and marks of 3 subjects in studentMarks.txt file
+        1-99-99-99
+        2-88-88-88
+        3-77-77-77
+
+
+
+
+
+calculate the average of 3 subjects of marks
+
+grade calculate
+store data in file while keep the average in descending order
+
+80 to 100=>Agrade.txt
+rollno-name-average
+1-A-99
+2-B-88
+
+60 to 80=>Bgrade.txt
+
+40 to 60=>Cgrade.txt
+
+
