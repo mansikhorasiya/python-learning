@@ -1,0 +1,33 @@
+user will decide no. of lists
+2
+
+user wil input no. of elements for each list
+ls1=>5
+ls2=>7
+
+user will input element for each list
+ls1=[1,11,43,56,43]
+ls2=[1,32,3,4,5,6,7]
+
+calculate(ls1)=>print the list
+
+calculate(ls1,ls2)=>
+concate both the lists=>
+print maximum-minimum element
+    56,1
+
+calculate(ls1,ls2,ls3)=>
+concate all the lists=>
+print internal addition of all elements
+
+
+calculate(n list)=>concate all the lists
+lambda function
+    print the square of every element and store in list
+    find the odd number and store in list
+'''
+lst = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
+sum_lst = list(map(lambda *x: sum(x), *lst))
+print(sum_lst)  # [12, 15, 18]
+
