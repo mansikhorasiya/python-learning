@@ -1,0 +1,53 @@
+student={
+'s1':{
+    'rollno':input,
+    'name':input,
+    'marks':input,
+    'grade':None,
+},
+'s2':{
+    'rollno':input,
+    'name':input,
+    'marks':input,
+    'grade':None,
+},
+'s3':{
+    'rollno':input,
+    'name':input,
+    'marks':input,
+    'grade':None,
+},
+'s4':{
+    'rollno':input,
+    'name':input,
+    'marks':input,
+    'grade':None,
+},
+'s5':{
+    'rollno':input,
+    'name':input,
+    'marks':input,
+    'grade':None,
+}
+
+}
+
+create the data structure manually
+
+input the data
+
+---------------dynamic----------------------
+
+find the grade and assign
+
+90 to 100->A grade assign
+
+80 to 90->B grade assign
+
+60 to 80->C grade assign
+
+40 to 60->D grade assign
+
+<40->Fail
+
+display the student dictionary
