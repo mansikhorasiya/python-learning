@@ -1,11 +1,11 @@
 # 1]word wise reverse
-# def fn1(s):
-#     d=s.split(" ")
-#     print(d)
-#     for i in d:
-#         print(i[::-1],end=' ')
-# n=input('Enter the string:')
-# fn1(n)
+def fn1(s):
+    d=s.split(" ")
+    print(d)
+    for i in d:
+        print(i[::-1],end=' ')
+n=input('Enter the string:')
+fn1(n)
 
 # 2]two charachters interchange
 print()

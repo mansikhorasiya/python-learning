@@ -19,10 +19,6 @@ write_data(n):
         2-88-88-88
         3-77-77-77
 
-
-
-
-
 calculate the average of 3 subjects of marks
 
 grade calculate

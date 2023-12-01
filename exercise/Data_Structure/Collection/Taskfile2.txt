@@ -1,0 +1,21 @@
+student={}
+
+user will input no. students
+
+    roll no input
+
+    name input
+
+    marks input
+
+store in dictionary
+
+display dictionary
+
+user has three choices
+
+   -> 1-> student roll no
+
+   -> 2-> student names
+
+   -> 3-> student marks

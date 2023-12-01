@@ -1,0 +1,27 @@
+StudentInfo
+    student_rollno
+    student_name
+
+
+StudentMarks
+    student_rollno
+    student_marks_one
+    student_marks_two
+    student_marks_three
+
+
+Main Class
+
+    Constructor
+
+    user will input no of students
+
+    user will input data for StudentInfo-Constructor
+
+    user will input data for StudentMarks-Constructor
+
+    calculate the average-Function
+
+    calculate the grade
+    import the grade calculation function from file task (LEC 9)
+
