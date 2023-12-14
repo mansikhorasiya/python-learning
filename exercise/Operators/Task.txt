@@ -1,0 +1,19 @@
+->create the list
+
+->user will input no. of elements
+
+->user will input elements
+
+ls=[0,8,4,12,2,12,4,9,1,3,5,13,3]=>76
+
+->divide the main list into two
+  sublists where total(sum) of
+  both sublists should be equal
+
+ls1=[0,8,4,12,2,12]=>38
+
+ls=[4,9,1,3,5,13,3]=>38
+
+
+
+
