@@ -67,12 +67,97 @@
 # List1= [“W”, “a”, “w”,”b”]
 # List2 = [“e”, “ “,”riting”,”log”]
          
-lst1 = ['W', 'a', 'w', 'b']
-lst2 = ['e', ' ', 'riting', 'log']
-lst3 = [x + y for x, y in zip(lst1, lst2)]
-print(lst3)
+# lst1 = ['W', 'a', 'w', 'b']
+# lst2 = ['e', ' ', 'riting', 'log']
+# lst3 = [x + y for x, y in zip(lst1, lst2)]
+# print(lst3)
+
+# Q13. Write a code snippet to generate the square of every element of a list.
+# my_list = [2 ,3 ,4 ,5]
+# list_finl = []
+# for i in my_list:
+#     list_finl.append(i * i)
+# print(list_finl)
+
+# Q21. What is the difference between split and join?
+# Split and join are both functions of Python strings,
+# but they are completely different when it comes to functioning.
+# a = 'this is string'
+# b = a.split(' ')
+# print(b)  # ['this', 'is', 'string']
+
+# c = ' '.join(b)
+# print(c)  # 'this is string'
 
 
+# Q23. Explain the top 5 functions used for Python strings.
+
+# len(): this  function returns the  lenght of a  string
+# s = "hello mansi"
+# print(len(s))
+# strip(): This function removes leading and trailing whitespace from a string.
+# s = "hello mansi"
+# print(s.strip())
+# replace(): This function replaces all occurrences of a specified string with another string.
+# s = 'Hello, Mansi!'
+# print(s.replace('Mansi', 'Universe'))
+# split(): This function splits a string into a list of substrings based on a delimiter.
+# s = 'Hello, World!'
+# print(s.split(','))
+# upper() and lower(): These functions convert a string to uppercase or lowercase, respectively.
+# s = 'Hello, World!'
+# print(s.upper())
+# print(s.lower())
+
+# Q32. What are global and local variables in Python?
+# This is a global variable
+# x = 10
+# def func():
+#     # This is a local variable
+#     x = 5
+#     print(x)
+# func()
+# print(x)
+
+# Q51. Write a program to check whether a number is prime or not.
+# from math import sqrt
+
+# def prime_or_not(number):
+#     for i in range(2, int(sqrt(number)) + 1):
+#         if number % i == 0:
+#             return 0
+#     return 1
+
+# Q53. What are the ways to swap the values of two elements?
+
+# a = 'this is string'
+# b = a.split(' ')
+# print("Before swap:")
+# print("a =", a)  # 'this is string'
+# print("b =", b)  # ['this', 'is', 'string']
+
+# # Swapping values
+# temp = a
+# a = b
+# b = temp
+
+# print("After swap:")
+# print("a =", a)  # ['this', 'is', 'string']
+# print("b =", b)  # 'this is string'
+
+# Q54. Write a program in Python to return the factorial of a given number using recursion.
+def factorial(n):
+    # Base case: factorial of 0 or 1 is 1
+    if n == 0 or n == 1:
+        return 1
+    else:
+        # Recursive case: n * factorial of (n-1)
+        return n * factorial(n - 1)
+
+# Test the function
+number = int(input("Enter a number: "))
+result = factorial(number)
+print(f"The factorial of {number} is {result}")
 
 
 
